@@ -1,7 +1,8 @@
 # AlaSQLGS
 
-AlaSQLGS is a library that enables the use of the [AlaSQL.js](http://alasql.org) library in [Google Apps Script](https://developers.google.com/apps-script/).
-API docs are available [here](https://script.google.com/macros/library/versions/d/1XWR3NzQW6fINaIaROhzsxXqRREfKXAdbKoATNbpygoune43oCmez1N8U).
+AlaSQLGS makes [AlaSQL.js](http://alasql.org) available in [Google Apps Script](https://developers.google.com/apps-script/), so you can run SQL-like queries on JavaScript data and Google Apps Script resources from your Apps Script projects.
+
+Use it as a script library, or load it directly in your code. API docs are available [here](https://script.google.com/macros/library/versions/d/1XWR3NzQW6fINaIaROhzsxXqRREfKXAdbKoATNbpygoune43oCmez1N8U).
 
 ## Adding the library to your project
 
