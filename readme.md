@@ -1,17 +1,12 @@
 # AlaSQLGS
 
-AlaSQLGS makes [AlaSQL.js](http://alasql.org) available in [Google Apps Script](https://developers.google.com/apps-script/), so you can run SQL-like queries on JavaScript data and Google Apps Script resources from your Apps Script projects.
+AlaSQLGS is a Google Apps Script library that brings [AlaSQL.js](http://alasql.org) to Apps Script projects, making it possible to run SQL-like queries against JavaScript data and script-managed resources. It is built on the Google Apps Script runtime and the AlaSQL.js query engine, so it fits naturally into Apps Script workflows while keeping a familiar SQL-style API.
 
-Use it as a script library, or load it directly in your code. API docs are available [here](https://script.google.com/macros/library/versions/d/1XWR3NzQW6fINaIaROhzsxXqRREfKXAdbKoATNbpygoune43oCmez1N8U).
+## Tech stack
 
-## Adding the library to your project
-
-AlaSQL for Google Apps Script is made available as a script library. This is how you add it to your project:
-
-1. Click "Add a library" in the Libraries section of the left pane in the Apps Script IDE.
-2. Enter the project key (`1XWR3NzQW6fINaIaROhzsxXqRREfKXAdbKoATNbpygoune43oCmez1N8U`) in the "Script ID" field, and click "Look up".
-3. Select the highest version number, and choose `AlaSQL` as the identifier. (Do not turn on Development Mode unless you know what you are doing. The development version may not work)
-4. Press "Add". You can now use the AlaSQL library in your code.
+- [Google Apps Script](https://developers.google.com/apps-script/) runtime
+- [AlaSQL.js](http://alasql.org) as the underlying SQL engine
+- JavaScript for library usage and integration
 
 ## Loading the library
 
